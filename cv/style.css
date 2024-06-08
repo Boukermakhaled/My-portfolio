@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    background-color: black;
+    color: white;
+}
+img{
+    width: 100%;
+}
+.continer{
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    padding: 5rem;
+    background:#070707;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+@media only screen and(768px)  {
+    .continer{
+        width: 100%;
+        grid-template-columns: 1fr;
+        padding: 3rem;
+        gap:7rem;
+    }
+}
+.profile{
+   grid-column: 1/-1; 
+   margin-bottom: 2rem;
+}
+ .profile-continer{
+    display: flex;
+    gap: 2rem;
+}
+.profile-img{
+    max-width: 250px;
+    display: ;
+}
+
+.bou{
+    color: white;
+    font-weight: 200;
+    font-size: clamp(2rem,8vw,4rem);
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: -0.8rem;
+}
+
+.kha{
+    color:#ff7613;
+    font-weight: 700;
+    font-size: 140%;
+    text-transform: capitalize;
+    display: block;
+}
+.profile-title{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.description{
+   margin-top:0.8rem ;
+   margin-bottom: 0.8rem;
+   font-size: 1.4rem;
+   color:  #727171;
+   font-weight: 400;
+}
+.download-btn{
+    text-decoration: underline;
+    color: white;
+}
+.download-btn:hover{
+    color: #ff7613;
+}
+@media only screen and (max-width:768px){
+    .profile-continer{
+        flex-direction: column;
+    }
+}
+
+.skills-list{
+   margin-left: 2rem;
+   line-height: 1.5;
+}
+.title{
+    color: #ff7613;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.ref-item{
+    margin-top: 2rem;
+}
+.ref-name{
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+.group-1{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.edu-item{
+    margin-top: 2rem;
+}
+.item_preTitle{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #727171;
+
+}
+.item_title{
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 500;
+    margin: 0.8rem 0;
+    text-transform:capitalize;
+
+}
+.item_subtitle{
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #727171;
+    text-transform:capitalize;
+
+}
+.certification_item{
+    margin-top: 2rem;
+}
+.interest_items {
+	margin-top: 1rem;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 2rem;
+}
+.interest_item {
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+	color: #727171;
+}
+.group-1,.group-2 {
+	display: flex;
+	flex-direction: column;
+	gap: 5rem;
+}
+.email{
+    text-decoration: none;
+    color: #727171;
+}
+.email:hover{
+    color: #ff7613;
+}
+.social_item{
+    color: #727171;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.social_item:hover{
+    color: #ff7613;
+    text-decoration: underline;
+}
+.social_items{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}
+.group-3, .group-4{
+    margin-top: 2rem;
+}
